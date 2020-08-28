@@ -119,7 +119,7 @@ environment:
       build_ruby: "24"
       MINGW_PACKAGE_PREFIX: "mingw-w64-x86_64"
       MSYSTEM: "MINGW64"
-      run_ruby_spec: true
+      run_mri_spec: v2_5_8
 
     - target_ruby: "2.6.6"
       arch: "x86"
@@ -133,7 +133,7 @@ environment:
       build_ruby: "24"
       MINGW_PACKAGE_PREFIX: "mingw-w64-i686"
       MSYSTEM: "MINGW32"
-      run_ruby_spec: true
+      run_mri_spec: v2_5_8
 
     - target_ruby: "head"
       arch: "x64"
